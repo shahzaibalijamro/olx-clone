@@ -1,21 +1,7 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import React from "react";
 import Header from "@/components/header";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-  display: "swap",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,11 +17,10 @@ export default function RootLayout({
     <React.StrictMode>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <div className="px-[36px]">
-          <Header/>
-          {children}
+          <div className="max-w-[1280px] w-full mx-auto">
+            <Header />
+            {children}
           </div>
         </body>
       </html>
