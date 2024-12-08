@@ -22,6 +22,10 @@
   border-radius: 50%;
 }
 
+.motor-Image:hover{
+  fill: #3a77ff !important;
+}
+
 .dropdown-icon {
   transition: transform 0.3s ease-in-out;
   transform-origin: center;
