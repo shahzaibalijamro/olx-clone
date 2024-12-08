@@ -64,7 +64,7 @@ const Header = () => {
                             </div>
                             <div className="p-[16px] border-b-[1px] z-1 border-b-[#ced6d7]">
                                 <div className="flex justify-start items-center">
-                                    <LocationIcon height={24} width={24} color="#5c7a7d"/>
+                                    <LocationIcon height={24} width={24} color="#5c7a7d" />
                                     <h1 className="ms-[8px] text-[14px] roboto-regular">See ads in all Pakistan</h1>
                                 </div>
                             </div>
@@ -75,38 +75,54 @@ const Header = () => {
                             </div>
                             <div className="p-[16px] z-1">
                                 <div className="flex justify-start items-center">
-                                    <LocationIcon height={24} width={24} color="#5c7a7d"/>
+                                    <LocationIcon height={24} width={24} color="#5c7a7d" />
                                     <h1 className="ms-[8px] text-[14px] roboto-regular">Azad Kashmir, Pakistan</h1>
                                 </div>
                             </div>
                             <div className="p-[16px] z-1">
                                 <div className="flex justify-start items-center">
-                                    <LocationIcon height={24} width={24} color="#5c7a7d"/>
+                                    <LocationIcon height={24} width={24} color="#5c7a7d" />
                                     <h1 className="ms-[8px] text-[14px] roboto-regular">Balochistan, Pakistan</h1>
                                 </div>
                             </div>
                             <div className="p-[16px] z-1">
                                 <div className="flex justify-start items-center">
-                                    <LocationIcon height={24} width={24} color="#5c7a7d"/>
+                                    <LocationIcon height={24} width={24} color="#5c7a7d" />
                                     <h1 className="ms-[8px] text-[14px] roboto-regular">Punjab, Pakistan</h1>
                                 </div>
                             </div>
                             <div className="p-[16px] z-1">
                                 <div className="flex justify-start items-center">
-                                    <LocationIcon height={24} width={24} color="#5c7a7d"/>
+                                    <LocationIcon height={24} width={24} color="#5c7a7d" />
                                     <h1 className="ms-[8px] text-[14px] roboto-regular">Sindh, Pakistan</h1>
                                 </div>
                             </div>
                         </div>}
                     </div>
                     <div className="w-full flex justify-start border border-[#d8dfe0] focus-within:border-[#23e5db] focus:border-[#23e5db] rounded">
-                            <div className="w-full flex">
-                                <input type="text" placeholder="Find Cars, Mobile Phones and More..." className="w-full ms-[10px] my-[12px] placeholder:text-[#7d7575] focus-visible:border-0 focus-visible:outline-0" />
-                                <div style={{borderTopRightRadius: "0.25rem",borderBottomRightRadius: "0.25rem"}} className={`cursor-pointer w-[48px] h-[48px] flex justify-center items-center bg-[#002f34]`}>
-                                    <SearchIcon height={24} width={24} />
+                        <div className="w-full flex">
+                            <input type="text" placeholder="Find Cars, Mobile Phones and More..." className="w-full ms-[10px] my-[12px] placeholder:text-[#7d7575] focus-visible:border-0 focus-visible:outline-0" />
+                            <div style={{ borderTopRightRadius: "0.25rem", borderBottomRightRadius: "0.25rem" }} className={`cursor-pointer w-[48px] h-[48px] flex justify-center items-center bg-[#002f34]`}>
+                                <SearchIcon height={24} width={24} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex ms-[32px] justify-start items-center gap-x-[20px]">
+                        <div>
+                            <div className="border-b-2 hover:border-[#ffffff] cursor-pointer border-[#002f34]">
+                                <h1 className="text-[#002f34] roboto-bold">Login</h1>
+                            </div>
+                        </div>
+                        <div className="cursor-pointer border-[#002f34]">
+                            <div className="relative">
+                                <img className="w-[218px]" src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg" alt="" />
+                                <div className="flex justify-center items-center absolute inset-0">
+                                    <img src="https://www.olx.com.pk/assets/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg" className="me-[4px]" alt="" />
+                                    <h1 className="text-[#002f34] roboto-bold text-[14px] uppercase">Sell</h1>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
