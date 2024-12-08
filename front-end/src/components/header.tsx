@@ -4,6 +4,7 @@ import LocationIcon from "@/assets/LocationIcon"
 import Logo from "@/assets/Logo"
 import MotorImage from "@/assets/motorImage"
 import PropertyImage from "@/assets/propertyImage"
+import SearchIcon from "@/assets/SearchIcon"
 import { useEffect, useRef, useState } from "react"
 
 const Header = () => {
@@ -98,11 +99,11 @@ const Header = () => {
                             </div>
                         </div>}
                     </div>
-                    <div className="w-full px-[10px] py-[12px]  flex justify-start border border-[#d8dfe0] focus-within:border-[#23e5db] focus:border-[#23e5db] rounded">
+                    <div className="w-full flex justify-start border border-[#d8dfe0] focus-within:border-[#23e5db] focus:border-[#23e5db] rounded">
                             <div className="w-full flex">
-                                <input type="text" placeholder="Find Cars, Mobile Phones and More..." className="w-full placeholder:text-[#7d7575] focus-visible:border-0 focus-visible:outline-0" />
-                                <div className={`me-[5px] dropdown-icon cursor-pointer ${isActive && 'rotate-180'}`}>
-                                    <DropdownIcon height={24} width={24} />
+                                <input type="text" placeholder="Find Cars, Mobile Phones and More..." className="w-full ms-[10px] my-[12px] placeholder:text-[#7d7575] focus-visible:border-0 focus-visible:outline-0" />
+                                <div style={{borderTopRightRadius: "0.25rem",borderBottomRightRadius: "0.25rem"}} className={`cursor-pointer w-[48px] h-[48px] flex justify-center items-center bg-[#002f34]`}>
+                                    <SearchIcon height={24} width={24} />
                                 </div>
                             </div>
                         </div>
