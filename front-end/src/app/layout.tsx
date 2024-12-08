@@ -18,10 +18,8 @@ export default function RootLayout({
       <html lang="en">
         <body
         >
-          <div className="max-w-[1280px] px-[15px] w-full mx-auto">
-            <Header />
-            {children}
-          </div>
+          <Header />
+          {children}
         </body>
       </html>
     </React.StrictMode>

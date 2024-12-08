@@ -24,7 +24,7 @@ const Header = () => {
         };
     }, []);
     return (
-        <div>
+        <div className="max-w-[1280px] px-[15px] w-full mx-auto">
             <div className="flex gap-x-[40px] items-center justify-start pt-[16px] pb-[6px]">
                 <Logo height={32} />
                 <div className="flex justify-center gap-[10px] items-center">
@@ -115,7 +115,7 @@ const Header = () => {
                         </div>
                         <div className="cursor-pointer border-[#002f34]">
                             <div className="relative">
-                                <img className="w-[218px]" src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg" alt="" />
+                                <img className="w-[218px] max-w-[104px]" src="https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg" alt="" />
                                 <div className="flex justify-center items-center absolute inset-0">
                                     <img src="https://www.olx.com.pk/assets/iconPlusSell_noinline.75fc7ea23e80b50447cf5757d8ef083a.svg" className="me-[4px]" alt="" />
                                     <h1 className="text-[#002f34] roboto-bold text-[14px] uppercase">Sell</h1>
