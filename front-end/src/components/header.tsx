@@ -64,7 +64,7 @@ const Header = () => {
                         <div onClick={() => setIsActive(true)} className="w-full px-[10px] py-[12px]  flex justify-start border border-[#d8dfe0] focus-within:border-[#23e5db] focus:border-[#23e5db] rounded">
                             <LocationIcon height={24} width={24} />
                             <div className="w-full flex" ref={dropdownRef} >
-                                <input type="text" value={inputLocation} onChange={(e) => setInputLocation(e.target.value)} className="ps-[10px] w-full focus-visible:border-0 focus-visible:outline-0" />
+                                <input type="text" value={inputLocation} onChange={(e) => setInputLocation(e.target.value)} className="ps-[10px] w-full bg-white focus-visible:border-0 focus-visible:outline-0" />
                                 <div onClick={(e) => {
                                     e.stopPropagation();
                                     setIsActive(!isActive);
@@ -119,7 +119,7 @@ const Header = () => {
                     </div>
                     <div className="w-full flex justify-start border border-[#d8dfe0] focus-within:border-[#23e5db] focus:border-[#23e5db] rounded">
                         <div className="w-full flex">
-                            <input type="text" placeholder="Find Cars, Mobile Phones and More..." className="w-full ms-[10px] my-[12px] placeholder:text-[#7d7575] focus-visible:border-0 focus-visible:outline-0" />
+                            <input type="text" placeholder="Find Cars, Mobile Phones and More..." className="w-full bg-white ms-[10px] my-[12px] placeholder:text-[#7d7575] focus-visible:border-0 focus-visible:outline-0" />
                             <div style={{ borderTopRightRadius: "0.25rem", borderBottomRightRadius: "0.25rem" }} className={`cursor-pointer w-[48px] h-[48px] flex justify-center items-center bg-[#002f34]`}>
                                 <SearchIcon height={24} width={24} />
                             </div>

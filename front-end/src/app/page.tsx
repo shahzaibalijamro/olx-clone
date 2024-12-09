@@ -1,5 +1,6 @@
 "use client"
 import DropdownIcon from "@/assets/DropdownIcon"
+import Card from "@/components/Card"
 import { SimpleCarousel } from "@/components/Corousel"
 
 const page = () => {
@@ -134,6 +135,7 @@ const page = () => {
           </div>
         </div>
         <div>
+          <Card/>
           <div className="flex items-center justify-center gap-x-[24px]">
             <div className="carousel w-full">
               <div id="slide1" className="carousel-item relative w-full">
