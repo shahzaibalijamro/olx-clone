@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <React.StrictMode>
-      <html lang="en">
+      <html className="scrollbar scrollbar-thumb-[#686868] scrollbar-track-[#424242] scrollbar-[20px]" lang="en">
         <body
         >
           <Header />
