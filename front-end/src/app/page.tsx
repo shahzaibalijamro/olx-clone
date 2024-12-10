@@ -1,9 +1,75 @@
 "use client"
 import DropdownIcon from "@/assets/DropdownIcon"
 import Card from "@/components/Card"
-import { SimpleCarousel } from "@/components/Corousel"
-
+import Carousel from "@/components/Carousel";
+import { SimpleCarousel } from "@/components/SimpleCorousel";
 const page = () => {
+  const products = [
+    {
+      id: 1,
+      price: "Rs 270,000",
+      title: "Mobile Phone",
+      address: "7th Avenue, Islamabad",
+      time: "1 day ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175755-240x180.webp",
+    },
+    {
+      id: 2,
+      price: "Rs 1,500,000",
+      title: "Used Car",
+      address: "Gulshan-e-Iqbal, Karachi",
+      time: "2 hours ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175756-240x180.webp",
+    },
+    {
+      id: 3,
+      price: "Rs 15,000",
+      title: "Office Chair",
+      address: "Johar Town, Lahore",
+      time: "3 days ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175757-240x180.webp",
+    },
+    {
+      id: 4,
+      price: "Rs 45,000",
+      title: "Gaming Console",
+      address: "F-11, Islamabad",
+      time: "5 hours ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175758-240x180.webp",
+    },
+    {
+      id: 5,
+      price: "Rs 8,000",
+      title: "Wrist Watch",
+      address: "Clifton, Karachi",
+      time: "10 minutes ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175759-240x180.webp",
+    },
+    {
+      id: 6,
+      price: "Rs 25,000",
+      title: "Laptop Bag",
+      address: "Model Town, Lahore",
+      time: "2 days ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175760-240x180.webp",
+    },
+    {
+      id: 7,
+      price: "Rs 900,000",
+      title: "Motorbike",
+      address: "Shahra-e-Faisal, Karachi",
+      time: "4 hours ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175761-240x180.webp",
+    },
+    {
+      id: 8,
+      price: "Rs 3,200",
+      title: "Bluetooth Speaker",
+      address: "Bahria Town, Islamabad",
+      time: "6 hours ago",
+      imageUrl: "https://images.olx.com.pk/thumbnails/505175762-240x180.webp",
+    },
+  ];
   return (
     <div className="">
       <div className="border-t-[1px] flex justify-start items-center border-[#d8dfe0] pt-4 pb-2">
@@ -135,47 +201,69 @@ const page = () => {
           </div>
         </div>
         <div>
+          <div className="w-full">
+            <Carousel products={products}/>
+          </div>
+          {/* <div className="flex justify-center items-center gap-x-[24px]">
           <Card/>
-          <div className="flex items-center justify-center gap-x-[24px]">
+          <Card/>
+          <Card/>
+          <Card/>
+
+          </div> */}
+          {/* <div className="flex items-center justify-center gap-x-[24px]">
             <div className="carousel w-full">
               <div id="slide1" className="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                  className="w-full" />
+                <div className="flex w-full justify-center items-center gap-x-[24px]">
+                  {products && products.map((item,index) => {
+                    return <div key={index}>
+                      <Card/>
+                    </div>
+                  })}
+                </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                   <a href="#slide4" className="btn btn-circle">❮</a>
                   <a href="#slide2" className="btn btn-circle">❯</a>
                 </div>
               </div>
               <div id="slide2" className="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                  className="w-full" />
+                <div className="flex justify-center items-center gap-x-[24px]">
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+                </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                   <a href="#slide1" className="btn btn-circle">❮</a>
                   <a href="#slide3" className="btn btn-circle">❯</a>
                 </div>
               </div>
               <div id="slide3" className="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                  className="w-full" />
+                <div className="flex justify-center items-center gap-x-[24px]">
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+                </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                   <a href="#slide2" className="btn btn-circle">❮</a>
                   <a href="#slide4" className="btn btn-circle">❯</a>
                 </div>
               </div>
               <div id="slide4" className="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                  className="w-full" />
+                <div className="flex justify-center items-center gap-x-[24px]">
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+                </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                   <a href="#slide3" className="btn btn-circle">❮</a>
                   <a href="#slide1" className="btn btn-circle">❯</a>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
