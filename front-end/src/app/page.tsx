@@ -341,10 +341,10 @@ const page = () => {
       </div>
       <div className="h-8"></div>
       <div className="bg-[#002f3408] h-[200px] w-full">
-        <div className="max-w-[1280px] h-full px-[15px] mt-[16px] w-full mx-auto">
+        <div className="max-w-[1340px] h-full px-[15px] mt-[16px] w-full mx-auto">
           <div className="flex items-center h-full">
-            <div className=" h-full">
-              <img src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt="" />
+            <div className="h-full">
+              <img className="h-full" src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt="" />
             </div>
             <div className="ms-11 h-full me-4">
               <div>
@@ -372,6 +372,89 @@ const page = () => {
           </div>
         </div>
       </div>
+      <footer className="border-t border-t-[#002f3433] w-full">
+        <div className="bg-[#ebeeef] pt-4 pb-16">
+          <div className="max-w-[1280px] w-full mx-auto">
+            <div className="w-full items-stretch flex">
+              <section className="flex-1">
+                <h1 className="roboto-bold uppercase text-[#002f34] text-[14px] leading-normal">popular categories</h1>
+                <ul className="list-none p-0 mt-2 my-0 mb-0">
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px] roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                </ul>
+              </section>
+              <section className="flex-1">
+                <h1 className="roboto-bold uppercase text-[#002f34] text-[14px] leading-normal">popular categories</h1>
+                <ul className="list-none p-0 mt-2 my-0 mb-0">
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                </ul>
+              </section>
+              <section className="flex-1">
+                <h1 className="roboto-bold uppercase text-[#002f34] text-[14px] leading-normal">popular categories</h1>
+                <ul className="list-none p-0 mt-2 my-0 mb-0">
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                </ul>
+              </section>
+              <section className="flex-1">
+                <h1 className="roboto-bold uppercase text-[#002f34] text-[14px] leading-normal">popular categories</h1>
+                <ul className="list-none p-0 mt-2 my-0 mb-0">
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                  <li className="m-0 text-[12px] cursor-pointer hover:text-[#002f34] h-[21px]  roboto-regular text-[#002f34a3]">Item1</li>
+                </ul>
+              </section>
+              <section className="flex-1">
+                <div className="h-full flex flex-col justify-between items-start">
+                  <div>
+                    <h1 className="roboto-bold uppercase text-[#002f34] text-[14px] leading-normal">Follow us</h1>
+                    <div className="flex mt-1 justify-start items-center">
+                      <div className="me-2">
+                        <img className="h-6 w-6" src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="" />
+                      </div>
+                      <div className="me-2">
+                        <img className="h-6 w-6" src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="" />
+                      </div>
+                      <div className="me-2">
+                        <img className="h-6 w-6" src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="" />
+                      </div>
+                      <div className="me-2">
+                        <img className="h-6 w-6" src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-start">
+                    <div className="me-2">
+                      <img className="h-7 w-[84px]" src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" alt="" />
+                    </div>
+                    <div className="me-2">
+                      <img className="h-7 w-[84px]" src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="" />
+                    </div>
+                    <div>
+                      <img className="h-7 w-[84px]" src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#002f34] py-4 text-white text-right">
+          <div className="max-w-[1280px] w-full mx-auto">
+            <div className="text-[12px] roboto-regular">
+              <span className="text-[12px] me-2 roboto-bold">Free Classifieds in Pakistan</span> . © 2006-2024 OLX
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
