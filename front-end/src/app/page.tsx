@@ -193,77 +193,148 @@ const page = () => {
       <div className="max-w-[1280px] px-[15px] mt-[16px] w-full mx-auto">
         <div className="flex justify-between mb-4 items-center">
           <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">More in recent ads</h1>
-          <div className="flex justify-center items-center">
+          <div className="flex cursor-pointer justify-center items-center">
             <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[8px] -rotate-90">
+            <div className="ms-[6px] -rotate-90">
               <DropdownIcon height={15} width={15} color="#3a77ff" />
             </div>
           </div>
         </div>
         <div>
           <div className="w-full">
-            <Carousel products={products}/>
+            <Carousel products={products} />
           </div>
-          {/* <div className="flex justify-center items-center gap-x-[24px]">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-
-          </div> */}
-          {/* <div className="flex items-center justify-center gap-x-[24px]">
-            <div className="carousel w-full">
-              <div id="slide1" className="carousel-item relative w-full">
-                <div className="flex w-full justify-center items-center gap-x-[24px]">
-                  {products && products.map((item,index) => {
-                    return <div key={index}>
-                      <Card/>
-                    </div>
-                  })}
-                </div>
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide4" className="btn btn-circle">❮</a>
-                  <a href="#slide2" className="btn btn-circle">❯</a>
-                </div>
-              </div>
-              <div id="slide2" className="carousel-item relative w-full">
-                <div className="flex justify-center items-center gap-x-[24px]">
-                  <Card />
-                  <Card />
-                  <Card />
-                  <Card />
-                </div>
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide1" className="btn btn-circle">❮</a>
-                  <a href="#slide3" className="btn btn-circle">❯</a>
-                </div>
-              </div>
-              <div id="slide3" className="carousel-item relative w-full">
-                <div className="flex justify-center items-center gap-x-[24px]">
-                  <Card />
-                  <Card />
-                  <Card />
-                  <Card />
-                </div>
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide2" className="btn btn-circle">❮</a>
-                  <a href="#slide4" className="btn btn-circle">❯</a>
-                </div>
-              </div>
-              <div id="slide4" className="carousel-item relative w-full">
-                <div className="flex justify-center items-center gap-x-[24px]">
-                  <Card />
-                  <Card />
-                  <Card />
-                  <Card />
-                </div>
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide3" className="btn btn-circle">❮</a>
-                  <a href="#slide1" className="btn btn-circle">❯</a>
-                </div>
-              </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="bg-[#f2f4f5] h-[12px] my-[32px] w-full"></div>
+      </div>
+      <div className="max-w-[1280px] mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
             </div>
-          </div> */}
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
+        <div className="flex justify-between mb-4 items-center">
+          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+          <div className="flex cursor-pointer justify-center items-center">
+            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+            <div className="ms-[6px] -rotate-90">
+              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="w-full">
+            <Carousel products={products} />
+          </div>
         </div>
       </div>
     </div>
