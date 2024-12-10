@@ -209,131 +209,166 @@ const page = () => {
       <div className="max-w-[1280px] px-[15px] mt-[16px] w-full mx-auto">
         <div className="bg-[#f2f4f5] h-[12px] my-[32px] w-full"></div>
       </div>
-      <div className="max-w-[1280px] mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
+      <div className="max-w-[1280px] mb-[48px] px-[15px] w-full mx-auto">
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
             </div>
           </div>
         </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
+          </div>
+        </div>
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
+          </div>
+        </div>
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
+          </div>
+        </div>
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
+          </div>
+        </div>
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
+          </div>
+        </div>
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
+          </div>
+        </div>
+        <div className="mt-[16px] mb-[32px]">
+          <div className="flex justify-between mb-4 items-center">
+            <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
+            <div className="flex cursor-pointer justify-center items-center">
+              <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
+              <div className="ms-[6px] -rotate-90">
+                <DropdownIcon height={15} width={15} color="#3a77ff" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="w-full">
+              <Carousel products={products} />
+            </div>
           </div>
         </div>
       </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
+      <div className="h-8"></div>
+      <div className="bg-[#002f3408] h-[200px] w-full">
+        <div className="max-w-[1280px] h-full px-[15px] mt-[16px] w-full mx-auto">
+          <div className="flex items-center h-full">
+            <div className=" h-full">
+              <img src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt="" />
             </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            <div className="ms-11 h-full me-4">
+              <div>
+                <h1 className="uppercase text-[32px] roboto-bold text-[#002f34] mt-7 mb-4">Try the olx app</h1>
+                <h1 className="text-[20px] roboto-regular text-[#002f34] max-w-[400px]">Buy, sell and find just about anything using the app on your mobile.</h1>
+              </div>
             </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            <div className="flex justify-center h-full items-center">
+              <div className="w-[2px] bg-[#002f3433] h-[136px] mx-auto"></div>
             </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
+            <div className="ms-8 h-full">
+              <h1 className="uppercase text-[14px] roboto-bold mt-[60px] mb-3 text-[#002f34]">get your app today</h1>
+              <div className="flex justify-center items-center">
+                <div className="me-2 cursor-pointer">
+                  <img className="h-10 w-32" src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" alt="" />
+                </div>
+                <div className="me-2 cursor-pointer">
+                  <img className="h-10 w-32" src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="" />
+                </div>
+                <div className="me-2 cursor-pointer">
+                  <img className="h-10 w-32" src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="" />
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1280px]  mb-[32px] px-[15px] mt-[16px] w-full mx-auto">
-        <div className="flex justify-between mb-4 items-center">
-          <h1 className="roboto-bold text-[24px] text-[#002f34] overflow-hidden text-ellipsis whitespace-nowrap">Mobile Phones</h1>
-          <div className="flex cursor-pointer justify-center items-center">
-            <h1 className="uppercase text-[14px] roboto-bold text-[#3a77ff]">View more</h1>
-            <div className="ms-[6px] -rotate-90">
-              <DropdownIcon height={15} width={15} color="#3a77ff" />
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="w-full">
-            <Carousel products={products} />
           </div>
         </div>
       </div>
